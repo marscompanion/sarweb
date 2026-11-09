@@ -35,7 +35,7 @@ export interface IPRecord {
 
 export interface TimelineEvent {
   id: string;
-  date?: string;
+  date?: LocalizedString | string;
   period?: LocalizedString;
   title: LocalizedString;
   description: LocalizedString;
@@ -520,7 +520,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
   timelineEvents: [
     {
       id: 'time-2015-lyceum',
-      date: '1 September 2015',
+      date: {
+        en: '1 September 2015',
+        ru: '1 сентября 2015',
+      },
       title: {
         en: 'Admission to Lyceum No. 410 (Pushkin, Saint Petersburg)',
         ru: 'Поступление в 1 класс Лицея № 410 (город Пушкин, Санкт-Петербург)',
@@ -549,7 +552,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2022-cadet-admission',
-      date: '28 August 2022',
+      date: {
+        en: '28 August 2022',
+        ru: '28 августа 2022',
+      },
       title: {
         en: 'Admission to Kronstadt Naval Cadet Corps',
         ru: 'Поступление в 8 класс Кронштадтского морского кадетского военного корпуса (КМКВК)',
@@ -562,7 +568,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2025-mars-beginning',
-      date: '2025',
+      date: {
+        en: '2025',
+        ru: '2025',
+      },
       title: {
         en: 'Inception of M.A.R.S. Companion Architecture',
         ru: 'Зарождение архитектуры M.A.R.S. Companion',
@@ -576,7 +585,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2026-05-first-patent',
-      date: '15 May 2026',
+      date: {
+        en: '15 May 2026',
+        ru: '15 мая 2026',
+      },
       title: {
         en: 'First Priority Patent Filing with UK Intellectual Property Office',
         ru: 'Подача первой приоритетной патентной заявки в UK IPO (GB2611463.7)',
@@ -590,7 +602,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2026-05-teduza-website',
-      date: '22 May 2026',
+      date: {
+        en: '22 May 2026',
+        ru: '22 мая 2026',
+      },
       title: {
         en: 'Public Launch of teduza.com',
         ru: 'Запуск официального веб-ресурса teduza.com',
@@ -604,7 +619,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2026-uk-ipo-patents',
-      date: '16–18 June 2026',
+      date: {
+        en: '16–18 June 2026',
+        ru: '16–18 июня 2026',
+      },
       title: {
         en: 'Filing of Extended 5-Patent Foundational Pool with UK IPO',
         ru: 'Подача пула из 5 фундаментальных патентных заявок в UK IPO',
@@ -624,7 +642,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2026-cadet-graduation',
-      date: '26 June 2026',
+      date: {
+        en: '26 June 2026',
+        ru: '26 июня 2026',
+      },
       title: {
         en: 'Graduation from Cadet Corps & Civil Technology Transition',
         ru: 'Выпуск из КМКВК и окончательный переход в гражданскую инженерию',
@@ -637,7 +658,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2026-07-relocation',
-      date: '10 July 2026',
+      date: {
+        en: '10 July 2026',
+        ru: '10 июля 2026',
+      },
       title: {
         en: 'Relocation to Historical Homeland (Armenia, Kapan)',
         ru: 'Переезд на историческую родину (Армения, город Капан)',
@@ -650,7 +674,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2026-company-registration',
-      date: '17 August 2026',
+      date: {
+        en: '17 August 2026',
+        ru: '17 августа 2026',
+      },
       title: {
         en: 'Incorporation of M.A.R.S. COMPANION LLC',
         ru: 'Государственная регистрация компании M.A.R.S. COMPANION LLC',
@@ -664,7 +691,10 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
     {
       id: 'time-2026-10-new-patents',
-      date: '15 October 2026',
+      date: {
+        en: '15 October 2026',
+        ru: '15 октября 2026',
+      },
       title: {
         en: 'Filing of 6 Extended Patent Applications with UK IPO',
         ru: 'Подача 6 новых патентных заявок в UK IPO',
@@ -682,7 +712,6 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
         'GB2624406.1',
         'GB2624415.2',
       ],
-    },
     {
       id: 'time-now-patent-expansion',
       period: {

@@ -284,11 +284,11 @@ export const HomePage: React.FC = () => {
                   </span>
                 </div>
 
-                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between py-2 gap-1">
-                  <span className="text-[#6b665f] font-mono text-[11px] uppercase tracking-wider shrink-0">
+                <div className="flex flex-col py-2 space-y-1">
+                  <span className="text-[#6b665f] font-mono text-[11px] uppercase tracking-wider">
                     {t.about.patentsLabel}
                   </span>
-                  <span className="text-[#d97f3d] font-mono font-medium">
+                  <span className="text-[#d97f3d] font-mono font-medium text-xs sm:text-sm">
                     {t.about.patentsValue}
                   </span>
                 </div>
@@ -341,7 +341,7 @@ export const HomePage: React.FC = () => {
               <div className="p-4 sm:p-6 bg-[#10131d] border border-white/[0.08] rounded-xl space-y-3">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 sm:gap-2">
                   <span className="self-start px-2.5 py-0.5 rounded text-[11px] font-mono bg-white/[0.06] text-[#d97f3d] border border-white/[0.06]">
-                    {evt.period ? getString(evt.period) : evt.date}
+                    {evt.period ? getString(evt.period) : (typeof evt.date === 'string' ? evt.date : getString(evt.date))}
                   </span>
                   <span className="text-[10px] sm:text-[11px] text-[#6b665f] font-mono uppercase tracking-wider">
                     {evt.category === 'education' && t.timeline.categoryEducation}

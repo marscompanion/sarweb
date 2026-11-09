@@ -27,18 +27,12 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       }
       const search = new URLSearchParams(window.location.search);
       const urlLang = search.get('lang');
-      if (urlLang === 'ru' || urlLang === 'en') {
-        return urlLang;
+      if (urlLang === 'ru') {
+        return 'ru';
       }
-      try {
-        const stored = localStorage.getItem('sarkisian_lang');
-        if (stored === 'ru' && (path === '' || path === '/')) {
-          return 'ru';
-        }
-        if (stored === 'en' || stored === 'ru') {
-          return stored;
-        }
-      } catch {}
+      if (urlLang === 'en') {
+        return 'en';
+      }
     }
     return 'en';
   });
@@ -58,17 +52,30 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     }
   }, [lang]);
 
-  // Handle language switch with real URL navigation so the browser tab refreshes/updates
+  // Listen to browser navigation (back/forward)
+  useEffect(() => {
+    const handlePopState = () => {
+      const path = window.location.pathname.toLowerCase();
+      if (path.startsWith('/ru')) {
+        setLangState('ru');
+      } else {
+        setLangState('en');
+      }
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Handle language switch seamlessly
   const setLang = (newLang: Language) => {
     try {
       localStorage.setItem('sarkisian_lang', newLang);
     } catch {}
 
-    const targetUrl = newLang === 'ru' ? '/ru/' : '/';
+    setLangState(newLang);
     if (typeof window !== 'undefined') {
-      window.location.href = targetUrl;
-    } else {
-      setLangState(newLang);
+      const targetUrl = newLang === 'ru' ? '/ru/' : '/';
+      window.history.pushState(null, '', targetUrl);
     }
   };
 

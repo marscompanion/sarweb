@@ -49,7 +49,12 @@ export const PatentDetailModal: React.FC = () => {
                 </span>
                 <span className="text-white font-mono flex items-center gap-1.5">
                   <Calendar className="w-3.5 h-3.5 text-[#d97f3d]" />
-                  {selectedPatent.filingDate}
+                  {isRu
+                    ? selectedPatent.filingDate
+                        .replace('October', 'октября')
+                        .replace('May', 'мая')
+                        .replace('June', 'июня')
+                    : selectedPatent.filingDate}
                 </span>
               </div>
 
