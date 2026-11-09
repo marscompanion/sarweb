@@ -712,6 +712,7 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
         'GB2624406.1',
         'GB2624415.2',
       ],
+    },
     {
       id: 'time-now-patent-expansion',
       period: {
