@@ -217,7 +217,7 @@ export const i18nData: Record<'en' | 'ru', I18nDictionary> = {
         'Независимый технологический разработчик и системный архитектор, исследующий автономный локальный искусственный интеллект, периферийные вычисления и приватное взаимодействие человека и машины.',
       exploreMars: 'Узнать о M.A.R.S.',
       contactBtn: 'Контакты',
-      creationStoryBtn: 'История создания Марса → sarkisian.site/ru',
+      creationStoryBtn: 'История создания M.A.R.S. → sarkisian.site/ru',
       portraitPlaceholder: 'Фотография',
     },
     about: {
@@ -277,7 +277,7 @@ export const i18nData: Record<'en' | 'ru', I18nDictionary> = {
         'Физические границы доверия и детерминированные инварианты, гарантирующие абсолютную защиту персональных данных.',
       officialSiteBtn: 'teduza.com',
       companySiteBtn: 'company.teduza.com',
-      storyCardTitle: 'История создания: как появился Марс',
+      storyCardTitle: 'История создания: как появился M.A.R.S.',
       storyCardDesc:
         'Подробная летопись зарождения идеи в кадетском корпусе, размышлений об одиночестве и этапов становления суверенной архитектуры опубликована на сайте автора.',
       storyCardBtn: 'Читать историю на sarkisian.site/ru',
@@ -302,7 +302,7 @@ export const i18nData: Record<'en' | 'ru', I18nDictionary> = {
       rights: 'Все права защищены.',
       legal:
         'M.A.R.S. COMPANION LLC · Рег. номер: 999.110.1603426 · г. Капан, Сюник, Республика Армения',
-      creationStoryLink: 'История создания Марса → sarkisian.site/ru',
+      creationStoryLink: 'История создания M.A.R.S. → sarkisian.site/ru',
     },
   },
 };

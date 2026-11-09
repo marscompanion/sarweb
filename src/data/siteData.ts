@@ -663,18 +663,15 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
       externalLink: 'https://company.teduza.com',
     },
     {
-      id: 'time-now-patent-expansion',
-      period: {
-        en: 'Now',
-        ru: 'Сейчас',
-      },
+      id: 'time-2026-10-new-patents',
+      date: '15 October 2026',
       title: {
-        en: 'Expansion of Patent Portfolio to 12 Applications',
-        ru: 'Расширение патентного портфеля до 12 заявок',
+        en: 'Filing of 6 Extended Patent Applications with UK IPO',
+        ru: 'Подача 6 новых патентных заявок в UK IPO',
       },
       description: {
-        en: 'Filing of 6 new UK IPO patent applications (GB2624388.1, GB2624416.0, GB2624414.5, GB2624409.5, GB2624406.1, GB2624415.2) covering dynamic volatile memory defragmentation, page-aligned offline vector DB indexing, hardware weight encryption, container logistics SRO, and federated learning. Total UK patent portfolio reaches 12 applications, all invented by Aleksandr Sarkisian.',
-        ru: 'Подача 6 новых патентных заявок в UK IPO (GB2624388.1, GB2624416.0, GB2624414.5, GB2624409.5, GB2624406.1, GB2624415.2), охватывающих динамическую дефрагментацию оперативной памяти, постраничную индексацию офлайн векторных баз данных, аппаратное шифрование весов моделей, логистическую оркестрацию ресурсов и федеративное обучение. Совокупный портфель патентов Великобритании достиг 12 заявок, автором всех которых является Александр Саркисян.',
+        en: 'Filing of 6 new UK IPO patent applications (GB2624388.1, GB2624416.0, GB2624414.5, GB2624409.5, GB2624406.1, GB2624415.2) covering dynamic volatile memory defragmentation, page-aligned offline vector DB indexing, hardware weight encryption, container logistics SRO, and federated learning.',
+        ru: 'Подача 6 новых патентных заявок в UK IPO (GB2624388.1, GB2624416.0, GB2624414.5, GB2624409.5, GB2624406.1, GB2624415.2), охватывающих динамическую дефрагментацию оперативной памяти, постраничную индексацию офлайн векторных баз данных, аппаратное шифрование весов моделей, логистическую оркестрацию ресурсов и федеративное обучение.',
       },
       category: 'patent',
       relatedPatents: [
@@ -685,6 +682,22 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
         'GB2624406.1',
         'GB2624415.2',
       ],
+    },
+    {
+      id: 'time-now-patent-expansion',
+      period: {
+        en: 'Now',
+        ru: 'Сейчас',
+      },
+      title: {
+        en: 'Expansion of Patent Profile & Technology Development',
+        ru: 'Расширение патентного профиля и развитие технологий',
+      },
+      description: {
+        en: 'Active expansion of the patent profile, development of next-generation sovereign offline AI hardware, and continuous scaling of intellectual property across edge computing and cryptographic trust architectures. Total UK patent portfolio reaches 12 applications, all invented by Aleksandr Sarkisian.',
+        ru: 'Активное расширение патентного профиля, разработка следующего поколения аппаратного обеспечения для суверенного офлайн-ИИ и масштабирование портфеля интеллектуальной собственности в области периферийных вычислений и криптографического доверия. Совокупный патентный портфель Великобритании включает 12 заявок, автором всех которых является Александр Саркисян.',
+      },
+      category: 'patent',
     },
   ],
 
