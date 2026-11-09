@@ -1,0 +1,6 @@
+{
+  "name": "Aleksandr Sarkisian — Official Website",
+  "description": "Official personal website and intellectual property archive of Aleksandr Sarkisian (teduza), founder and director of M.A.R.S. COMPANION LLC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
