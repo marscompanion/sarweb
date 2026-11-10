@@ -142,7 +142,7 @@ export const i18nData: Record<'en' | 'ru', I18nDictionary> = {
       languages: 'Languages',
       languagesValue: 'English, Ukrainian, Russian',
       patentsLabel: 'Intellectual Property',
-      patentsValue: '12 UK IPO patent applications',
+      patentsValue: '26 UK IPO patent applications',
       manifestoHeading: 'Biographical Narrative & Architectural Stance',
     },
     timeline: {
@@ -244,7 +244,7 @@ export const i18nData: Record<'en' | 'ru', I18nDictionary> = {
       languages: 'Языки общения',
       languagesValue: 'Английский, Украинский, Русский',
       patentsLabel: 'Интеллектуальная собственность',
-      patentsValue: '12 патентных заявок в UK IPO',
+      patentsValue: '26 патентных заявок в UK IPO',
       manifestoHeading: 'Биографический очерк и профессиональный манифест',
     },
     timeline: {

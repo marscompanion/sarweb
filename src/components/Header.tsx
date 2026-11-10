@@ -61,9 +61,10 @@ export const Header: React.FC = () => {
             <div className="flex items-center p-0.5 bg-white/[0.04] border border-white/[0.08] rounded-md text-xs font-mono">
               <a
                 href="/"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setLang('en');
+                onClick={() => {
+                  try {
+                    localStorage.setItem('sarkisian_lang', 'en');
+                  } catch {}
                 }}
                 className={`px-2.5 py-1 rounded transition-colors ${
                   lang === 'en'
@@ -76,9 +77,10 @@ export const Header: React.FC = () => {
               </a>
               <a
                 href="/ru/"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setLang('ru');
+                onClick={() => {
+                  try {
+                    localStorage.setItem('sarkisian_lang', 'ru');
+                  } catch {}
                 }}
                 className={`px-2.5 py-1 rounded transition-colors ${
                   lang === 'ru'
@@ -126,9 +128,10 @@ export const Header: React.FC = () => {
             <div className="flex gap-2">
               <a
                 href="/"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setLang('en');
+                onClick={() => {
+                  try {
+                    localStorage.setItem('sarkisian_lang', 'en');
+                  } catch {}
                   setMobileMenuOpen(false);
                 }}
                 className={`px-3 py-1 rounded text-xs font-mono font-medium ${
@@ -141,9 +144,10 @@ export const Header: React.FC = () => {
               </a>
               <a
                 href="/ru/"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setLang('ru');
+                onClick={() => {
+                  try {
+                    localStorage.setItem('sarkisian_lang', 'ru');
+                  } catch {}
                   setMobileMenuOpen(false);
                 }}
                 className={`px-3 py-1 rounded text-xs font-mono font-medium ${

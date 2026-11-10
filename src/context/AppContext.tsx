@@ -66,16 +66,17 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  // Handle language switch seamlessly
+  // Handle language switch with real navigation
   const setLang = (newLang: Language) => {
     try {
       localStorage.setItem('sarkisian_lang', newLang);
     } catch {}
 
-    setLangState(newLang);
+    const targetUrl = newLang === 'ru' ? '/ru/' : '/';
     if (typeof window !== 'undefined') {
-      const targetUrl = newLang === 'ru' ? '/ru/' : '/';
-      window.history.pushState(null, '', targetUrl);
+      window.location.href = targetUrl;
+    } else {
+      setLangState(newLang);
     }
   };
 

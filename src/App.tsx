@@ -30,7 +30,7 @@ const MainLayout: React.FC = () => {
       if (metaDesc) {
         metaDesc.setAttribute(
           'content',
-          'Официальный персональный сайт Александра Давидовича Саркисяна (teduza), основателя и директора M.A.R.S. COMPANION LLC. Выпускника Кронштадтского морского кадетского военного корпуса (КМКВК) и Лицея № 410. Биография, 12 патентов UK IPO, исследования суверенного автономного ИИ.'
+          'Официальный персональный сайт Александра Давидовича Саркисяна (teduza), основателя и директора M.A.R.S. COMPANION LLC. Выпускника Кронштадтского морского кадетского военного корпуса (КМКВК) и Лицея № 410. Биография, 26 патентов UK IPO, исследования суверенного автономного ИИ.'
         );
       }
       const ogTitle = document.querySelector('meta[property="og:title"]');
@@ -44,7 +44,7 @@ const MainLayout: React.FC = () => {
       if (ogDesc) {
         ogDesc.setAttribute(
           'content',
-          'Официальный персональный сайт Александра Давидовича Саркисяна (teduza) — основателя M.A.R.S. COMPANION LLC, изобретателя, выпускника КМКВК и Лицея № 410. 12 патентов UK IPO.'
+          'Официальный персональный сайт Александра Давидовича Саркисяна (teduza) — основателя M.A.R.S. COMPANION LLC, изобретателя, выпускника КМКВК и Лицея № 410. 26 патентов UK IPO.'
         );
       }
     } else {
@@ -53,7 +53,7 @@ const MainLayout: React.FC = () => {
       if (metaDesc) {
         metaDesc.setAttribute(
           'content',
-          'Official personal website of Aleksandr Sarkisian (Sargsyan), founder and director of M.A.R.S. COMPANION LLC. Biography, background, 12 UK IPO patents, and sovereign offline artificial intelligence.'
+          'Official personal website of Aleksandr Sarkisian (Sargsyan), founder and director of M.A.R.S. COMPANION LLC. Biography, background, 26 UK IPO patents, and sovereign offline artificial intelligence.'
         );
       }
       const ogTitle = document.querySelector('meta[property="og:title"]');
@@ -67,7 +67,7 @@ const MainLayout: React.FC = () => {
       if (ogDesc) {
         ogDesc.setAttribute(
           'content',
-          'Official personal website and identity graph of Aleksandr Sarkisian (Sargsyan), founder and director of M.A.R.S. COMPANION LLC. Sovereign offline AI architecture and 12 UK IPO patents.'
+          'Official personal website and identity graph of Aleksandr Sarkisian (Sargsyan), founder and director of M.A.R.S. COMPANION LLC. Sovereign offline AI architecture and 26 UK IPO patents.'
         );
       }
     }

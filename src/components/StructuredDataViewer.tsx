@@ -32,8 +32,8 @@ export const StructuredDataViewer: React.FC = () => {
               </h2>
               <p className="text-xs text-[#9c978f] truncate">
                 {lang === 'ru'
-                  ? 'Машиночитаемый граф метаданных (Person, Organization, Product, 12 Patents)'
-                  : 'Machine-readable metadata graph (Person, Organization, Product, 12 Patents)'}
+                  ? 'Машиночитаемый граф метаданных (Person, Organization, Product, 26 Patents)'
+                  : 'Machine-readable metadata graph (Person, Organization, Product, 26 Patents)'}
               </p>
             </div>
           </div>

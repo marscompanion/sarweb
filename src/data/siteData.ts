@@ -303,7 +303,7 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
     },
   },
 
-  // All 12 UK IPO Patents in official English (without Russian translation, as requested)
+  // All 26 UK IPO Patents in official English (without Russian translation, as requested)
   ipRecords: [
     {
       id: 'ip-gb2624388-1',
@@ -515,6 +515,244 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
         'Hardware security element integration that binds the cognitive state cryptographically to the physical enclosure and enforces internal self-audit gates prior to action execution.',
       tags: ['Hardware-Anchored Trust', 'Physical Embodiment', 'Agency Gates', 'Self-Audit'],
     },
+    {
+      id: 'ip-gb2626659-3',
+      applicationNumber: 'GB2626659.3',
+      title:
+        'A Localized Multi-Sensor Computer Vision and Spatial Telemetry Fusion Framework for Autonomous Navigation and Cargo Handling Vehicles Operating in Isolated, Satellite-Denied Industrial Zones',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626659.3',
+      abstract:
+        'Edge-based spatial fusion framework combining multi-spectral optical telemetry, LiDAR point clouds, and inertial kinematics on embedded vehicle computing nodes for deterministic sub-centimeter navigation without GPS or cloud connectivity.',
+      tags: ['Spatial Telemetry', 'Multi-Sensor Fusion', 'Autonomous Vehicles', 'Edge Vision'],
+    },
+    {
+      id: 'ip-gb2626660-1',
+      applicationNumber: 'GB2626660.1',
+      title:
+        'A Decentralized Edge Intelligence Architecture for Real-Time Multi-Spectral Security Perimeter Surveillance, Cross-Modal Event Verification and Threat Isolation on Standalone Hardware Nodes',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626660.1',
+      abstract:
+        'Decentralized perimeter surveillance architecture executing cross-modal sensor verification and threat isolation across standalone hardware nodes without external communications or centralized monitoring centers.',
+      tags: ['Perimeter Security', 'Threat Isolation', 'Multi-Spectral', 'Edge Intelligence'],
+    },
+    {
+      id: 'ip-gb2626661-9',
+      applicationNumber: 'GB2626661.9',
+      title:
+        'An Algorithmic Method for Predictive Mechanical Fault Isolation, Modal Parameter Tracking and Structural Integrity Telemetry Processing in Heavy Industrial Seaport Infrastructure Using Standalone Edge Analytics',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626661.9',
+      abstract:
+        'Algorithmic method for real-time modal parameter tracking, mechanical resonance degradation detection, and structural failure prevention in seaport cranes and container handling machinery using standalone edge sensor analytics.',
+      tags: ['Predictive Maintenance', 'Fault Isolation', 'Structural Integrity', 'Seaport Infrastructure'],
+    },
+    {
+      id: 'ip-gb2626662-7',
+      applicationNumber: 'GB2626662.7',
+      title:
+        'M.A.R.S. OS: A Capability-Based Real-Time Microkernel Operating System Architecture with Worst-Case-Bounded Scheduling for Deterministic Execution of Containerized Neural Network Models on Edge Devices',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626662.7',
+      abstract:
+        'A formal capability-based real-time microkernel operating system enforcing worst-case bounded execution latency and deterministic memory scheduling for sandboxed containerized neural network models on resource-limited edge silicon.',
+      tags: ['M.A.R.S. OS', 'Microkernel', 'Real-Time OS', 'Deterministic Inference'],
+    },
+    {
+      id: 'ip-gb2626663-5',
+      applicationNumber: 'GB2626663.5',
+      title:
+        'An Intelligent Predictive-Residual Telemetry Filtration, Importance-Weighted Adaptive Sampling and Entropy-Coded Compression Algorithm on Standalone Computing Nodes',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626663.5',
+      abstract:
+        'Compression and filtration algorithm using localized neural autoregressive residual modeling and entropy coding to minimize on-device telemetry storage footprints while preserving critical anomaly data.',
+      tags: ['Telemetry Compression', 'Adaptive Sampling', 'Entropy Coding', 'Edge Storage'],
+    },
+    {
+      id: 'ip-gb2626665-0',
+      applicationNumber: 'GB2626665.0',
+      title:
+        'A Localized Event-Driven Tile-Gated Convolutional Neural Network Architecture with Early-Exit Cascades for Asynchronous Object Detection on Offline Low-Power Edge Processing Units',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626665.0',
+      abstract:
+        'Tile-gated asynchronous CNN architecture activating localized compute blocks only on spatial frame variance with early-exit classifiers, reducing inference power draw by up to 80% on battery-powered edge hardware.',
+      tags: ['Tile-Gated CNN', 'Early-Exit', 'Low-Power Vision', 'Edge AI'],
+    },
+    {
+      id: 'ip-gb2626666-8',
+      applicationNumber: 'GB2626666.8',
+      title:
+        'A Predictive Multi-Channel Telemetry Analysis System with Peer Cross-Validation for Automated Proactive Hardware Fault Isolation and Workload Evacuation in Decentralized Computing Clusters',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626666.8',
+      abstract:
+        'Fault-tolerant cluster protocol executing peer-to-peer telemetry cross-validation and proactive workload migration before complete hardware node failure across decentralized offline edge nodes.',
+      tags: ['Fault Tolerance', 'Workload Evacuation', 'Cluster Resilience', 'Decentralized Edge'],
+    },
+    {
+      id: 'ip-gb2626667-6',
+      applicationNumber: 'GB2626667.6',
+      title:
+        'A Compressed Conditional Generative Adversarial Network Architecture with On-Device Stability Supervision for Real-Time Synthetic Data Generation and Rare-Event Augmentation on Isolated Computing Nodes',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626667.6',
+      abstract:
+        'Compact conditional GAN architecture with discriminator stability bounds for generating rare-event training samples and telemetry edge cases directly on standalone edge computing hardware without external cloud datasets.',
+      tags: ['Edge GAN', 'Synthetic Data', 'Rare-Event Augmentation', 'Autonomous Training'],
+    },
+    {
+      id: 'ip-gb2626668-4',
+      applicationNumber: 'GB2626668.4',
+      title:
+        'A Slack-Aware Multi-Criteria Dynamic Priority Resource Scheduling Algorithmic Framework with Layer-Boundary Preemption for Asynchronous Edge Intelligence Workflows',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626668.4',
+      abstract:
+        'Resource scheduling framework dynamically adjusting task priorities based on remaining execution slack and neural layer boundaries, ensuring deadline compliance for competing asynchronous edge inference tasks.',
+      tags: ['Dynamic Scheduling', 'Resource Management', 'Layer Preemption', 'Real-Time Edge'],
+    },
+    {
+      id: 'ip-gb2626669-2',
+      applicationNumber: 'GB2626669.2',
+      title:
+        'A Keyed Low-Observability Steganographic Communication Protocol for Concealed Neural Network Parameter Exchange Embedded in Standard Industrial Telemetry Streams with Error-Correcting Redundancy',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626669.2',
+      abstract:
+        'Cryptographic steganographic communication protocol hiding encrypted model weights and control signals inside standard industrial sensor telemetry frames, ensuring verifiable integrity and low eavesdropping observability.',
+      tags: ['Steganography', 'Covert Protocol', 'Model Exchange', 'Industrial Telemetry'],
+    },
+    {
+      id: 'ip-gb2626670-0',
+      applicationNumber: 'GB2626670.0',
+      title:
+        'An Automated Capability-Vector-Driven Min-Max Latency Partitioning and Diffusive Load-Balancing Method for Heterogeneous Decentralized Neural Network Nodes in Localized Mesh Networks',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626670.0',
+      abstract:
+        'Mathematical partitioning algorithm dividing monolithic neural networks across heterogeneous ad-hoc mesh nodes according to capability vectors, minimizing peak latency through diffusive gradient-free balancing.',
+      tags: ['Model Partitioning', 'Mesh Network', 'Load Balancing', 'Distributed Inference'],
+    },
+    {
+      id: 'ip-gb2626672-6',
+      applicationNumber: 'GB2626672.6',
+      title:
+        'An Edge-Contained Mathematical Method for Recursive Sensor-Feedback-Driven Low-Rank Layer Reconfiguration and Stability-Guarded Optimization of Neural Networks in Autonomous Devices',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626672.6',
+      abstract:
+        'Recursive mathematical method reconfiguring low-rank adapter matrices in response to real-time physical sensor feedback, enabling continuous adaptive learning on edge devices while strictly guarding system stability.',
+      tags: ['Low-Rank Adaptation', 'Stability Guarantees', 'On-Device Optimization', 'Continuous Learning'],
+    },
+    {
+      id: 'ip-gb2626673-4',
+      applicationNumber: 'GB2626673.4',
+      title:
+        'A Non-Linear Cryptographic Encoding, Randomized Execution and Power-Balancing Obfuscation Protocol for On-Device Machine Learning Model Architecture Protection Against Side-Channel Analysis',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626673.4',
+      abstract:
+        'Physical and algorithmic security architecture preventing side-channel power analysis and electromagnetic probing of on-device neural network models through non-linear instruction randomization and dummy power balancing.',
+      tags: ['Side-Channel Defense', 'Model Obfuscation', 'Hardware Security', 'Anti-Probing'],
+    },
+    {
+      id: 'ip-gb2626674-2',
+      applicationNumber: 'GB2626674.2',
+      title:
+        'A Journaled Dual-Slot Atomic Checkpointing, Measured-Boot Verification and Secure Cold-Boot State Restoration Protocol for Fail-Safe Operation of Isolated Autonomous Edge Computing Platforms Employing Non-Volatile Memory Arrays',
+      filingDate: '10 November 2026',
+      filingDateIso: '2026-11-10',
+      status: 'Filed',
+      ownershipType: 'company_owned',
+      applicant: 'M.A.R.S. COMPANION LLC',
+      inventor: 'Aleksandr Sarkisian',
+      jurisdiction: 'United Kingdom (UK IPO)',
+      officialRegistryUrl: 'https://www.search-for-intellectual-property.service.gov.uk/GB2626674.2',
+      abstract:
+        'Fail-safe hardware recovery protocol employing dual-slot atomic journaling and cryptographic measured boot, guaranteeing instant recovery to a verified operational state following sudden power loss in autonomous field hardware.',
+      tags: ['Atomic Checkpointing', 'Fail-Safe Boot', 'Cold-Boot Restoration', 'Reliability Protocol'],
+    },
   ],
 
   timelineEvents: [
@@ -714,20 +952,36 @@ In July 2026, I relocated to Kapan, Syunik Province, Republic of Armenia — the
       ],
     },
     {
-      id: 'time-now-patent-expansion',
-      period: {
-        en: 'Now',
-        ru: 'Сейчас',
+      id: 'time-2026-11-new-patents',
+      date: {
+        en: '10 November 2026',
+        ru: '10 ноября 2026',
       },
       title: {
-        en: 'Expansion of Patent Profile & Technology Development',
-        ru: 'Расширение патентного профиля и развитие технологий',
+        en: 'Filing of 14 Advanced Systems & Edge Intelligence Patent Applications with UK IPO',
+        ru: 'Подача 14 передовых патентных заявок на системные архитектуры и периферийный ИИ в UK IPO',
       },
       description: {
-        en: 'Active expansion of the patent profile, development of next-generation sovereign offline AI hardware, and continuous scaling of intellectual property across edge computing and cryptographic trust architectures. Total UK patent portfolio reaches 12 applications, all invented by Aleksandr Sarkisian.',
-        ru: 'Активное расширение патентного профиля, разработка следующего поколения аппаратного обеспечения для суверенного офлайн-ИИ и масштабирование портфеля интеллектуальной собственности в области периферийных вычислений и криптографического доверия. Совокупный патентный портфель Великобритании включает 12 заявок, автором всех которых является Александр Саркисян.',
+        en: 'Filed 14 new UK IPO patent applications (GB2626659.3 through GB2626674.2) covering M.A.R.S. OS microkernel architecture, spatial telemetry fusion, multi-spectral threat isolation, steganographic communications, fault isolation, conditional GAN synthetic data generation, and side-channel cryptographic obfuscation. Total UK patent portfolio expands to 26 applications, all invented by Aleksandr Sarkisian and owned by M.A.R.S. COMPANION LLC.',
+        ru: 'Подача 14 новых патентных заявок в UK IPO (GB2626659.3 – GB2626674.2), охватывающих микроядерную операционную систему M.A.R.S. OS, пространственное слияние телеметрии, спектральный анализ угроз, стеганографические протоколы, локальное обучение нейросетей и криптографическую защиту от утечек по побочным каналам. Совокупный патентный портфель Великобритании достиг 26 заявок, изобретённых Александром Саркисяном в собственности компании M.A.R.S. COMPANION LLC.',
       },
       category: 'patent',
+      relatedPatents: [
+        'GB2626659.3',
+        'GB2626660.1',
+        'GB2626661.9',
+        'GB2626662.7',
+        'GB2626663.5',
+        'GB2626665.0',
+        'GB2626666.8',
+        'GB2626667.6',
+        'GB2626668.4',
+        'GB2626669.2',
+        'GB2626670.0',
+        'GB2626672.6',
+        'GB2626673.4',
+        'GB2626674.2',
+      ],
     },
   ],
 
