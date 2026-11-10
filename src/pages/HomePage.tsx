@@ -100,7 +100,7 @@ export const HomePage: React.FC = () => {
           </div>
 
           {/* Right Column: Round Portrait with Status */}
-          <div className="order-1 md:order-2 md:col-span-4 flex flex-col items-center justify-center">
+          <div className="order-1 md:order-2 md:col-span-4 flex flex-col items-center justify-center pt-2 sm:pt-0">
             <div className="relative w-44 h-44 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full p-1.5 bg-gradient-to-b from-[#d97f3d]/60 via-white/10 to-white/5 shadow-2xl flex items-center justify-center">
               <div className="w-full h-full rounded-full overflow-hidden bg-[#0d1017] border-2 border-white/[0.15] relative shadow-inner group">
                 <img

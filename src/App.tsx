@@ -79,7 +79,7 @@ const MainLayout: React.FC = () => {
       <Header />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 pb-4">
+      <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28 md:pt-32 pb-6 sm:pb-8">
         <HomePage />
       </main>
 
